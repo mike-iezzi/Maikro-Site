@@ -39,8 +39,8 @@ class Index extends React.Component {
           <div className="squares square7" />
           <Container>
             <div className="content-center brand">
-              <h1 className="h1-seo">BLK• PRO React</h1>
-              <h3>All components</h3>
+              <h1 className="h1-seo">Maikro</h1>
+              <h3>Microfinance Access Initiative</h3>
             </div>
           </Container>
         </div>

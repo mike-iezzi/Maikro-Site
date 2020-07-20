@@ -20,11 +20,13 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 // styles
 import "assets/css/nucleo-icons.css";
-import "assets/scss/blk-design-system-pro-react.scss?v1.1.0";
-import "assets/demo/demo.css";
-import "assets/demo/react-demo.css";
+import "assets/css/blk-design-system-pro-react.css";
+//import "assets/scss/blk-design-system-pro-react.scss?v1.1.0";
+//import "assets/demo/demo.css";
+//import "assets/demo/react-demo.css";
 
 // presentation pages
+import Home from "views/Home.js";
 import Index from "views/Index.js";
 import Presentation from "views/Presentation.js";
 import Sections from "views/Sections.js";
@@ -51,6 +53,7 @@ import ChatPage from "views/examples/ChatPage.js";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
+    <Route path="/home" render={props => <Home {...props} />} />
       <Route path="/index" render={props => <Index {...props} />} />
       <Route
         path="/presentation"

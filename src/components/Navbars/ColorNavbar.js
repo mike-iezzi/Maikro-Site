@@ -68,7 +68,7 @@ class ColorNavbar extends React.Component {
           <Container>
             <div className="navbar-translate">
               <NavbarBrand to="/index" tag={Link} id="tooltip6619950104">
-                <span>BLK•</span> Design System PRO React
+                <span>Maikro•</span> Microfinance Access Initiatve
               </NavbarBrand>
               <UncontrolledTooltip delay={0} target="tooltip6619950104">
                 Designed and Coded by Creative Tim
